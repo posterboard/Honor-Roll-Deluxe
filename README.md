@@ -1,2 +1,2 @@
 # Honor-Roll-Deluxe
-This is Kush's Baseline
+This is baseline
