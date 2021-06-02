@@ -1,4 +1,7 @@
 #pragma once
 
-bool getValidInt(int& t_int);
-bool getValidInt(int& t_int);
+bool getValidInt(int&);
+bool getValidFloat(float&);
+bool getValidDouble(double&);
+
+
