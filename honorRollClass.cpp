@@ -166,3 +166,24 @@ void honorRoll::print() {
     }
 
 }
+
+void honorRoll::adminMode() {
+	std::cout << "Enter admin password: ";
+	string password;
+	cin >> password;
+	if (password == "1111") {
+		cout << "Welcome Admin\n";
+		cout << "Do you want the student to have a disciplinary issue (y/n): ";
+		string issue;
+		cin >> issue;
+		if ((issue == "y") || (issue == "Y")){
+			this->disciplineIssue = true;
+		}
+		else {
+			this->disciplineIssue = false;
+		}
+	}
+	else {
+		cout << "Incorrect Password\n";
+	}
+}
