@@ -17,4 +17,5 @@ public:
 	void infraction();
 	bool getValidInt(int& t_int);
 	void print();
+	void adminMode();
 };
